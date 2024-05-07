@@ -1,0 +1,232 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+}
+
+.dark-glass {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  height: 100vh;
+  width: 100vw;
+  max-height: 1600px;
+  max-width: 2560px;
+  background-image: url(../images/TitleImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 60pt;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-title {
+  margin: 0;
+  padding: 200px 0 0 0;
+  text-align: center;
+  text-shadow: 15px 10px 4px #000000;
+}
+
+.sub-title-1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 75pt;
+  text-shadow: 15px 10px 4px #000000;
+}
+
+.sub-title-2 {
+  margin: 0;
+  padding: 100px 0 0 0;
+  text-align: center;
+  font-size: 120pt;
+  color: #696969;
+  text-shadow: 15px 10px 4px #1f0000;
+  -webkit-text-stroke: 5px #580000;
+}
+
+.content {
+  background-color: #1f0d00;
+  padding-bottom: 100px;
+  max-width: 2560px;
+}
+
+.boss-card-left {
+  width: 40vw;
+  margin: 65px 0 0 100px;
+  padding: 20px;
+  display: inline-block;
+  background-color: #444444;
+  border: #7e0000 solid 6px;
+  border-radius: 12px;
+}
+
+.boss-card-right {
+  width: 40vw;
+  margin: 65px 100px 0 0;
+  padding: 20px;
+  display: inline;
+  background-color: #444444;
+  float: right;
+  border: #7e0000 solid 6px;
+  border-radius: 12px;
+}
+
+.card-image {
+  width: 40vw;
+  height: 47vh;
+  border-radius: 8px;
+}
+
+.boss-name {
+  color: #cccccc;
+  font-size: 25pt;
+  font-family: "Times New Roman", Times, serif;
+  margin: 15px 0 20px 0;
+}
+
+.short-description {
+  color: #ffffff;
+  font-size: 18pt;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+
+.read-button {
+  display: block;
+  margin: auto;
+  width: 130px;
+  height: 40px;
+  font-size: 15pt;
+  font-family: "Times New Roman", Times, serif;
+  color: #dddddd;
+  background-color: #9c0000;
+  border: #1a1a1a solid 6px;
+  border-radius: 10px;
+}
+
+@media (max-width: 920px) {
+  .title {
+    font-size: 40pt;
+  }
+
+  .sub-title-1 {
+    font-size: 50pt;
+  }
+
+  .sub-title-2 {
+    font-size: 80pt;
+    -webkit-text-stroke: 4px #580000;
+  }
+}
+
+@media (max-width: 646px) {
+  .title {
+    font-size: 30pt;
+  }
+
+  .main-title {
+    padding: 250px 0 0 0;
+  }
+
+  .sub-title-1 {
+    font-size: 40pt;
+  }
+
+  .sub-title-2 {
+    font-size: 60pt;
+    -webkit-text-stroke: 3px #580000;
+  }
+
+  .card-image {
+    width: 50vw;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 491px) {
+  .title {
+    font-size: 20pt;
+  }
+
+  .main-title {
+    padding: 280px 0 0 0;
+  }
+
+  .sub-title-1 {
+    font-size: 30pt;
+  }
+
+  .sub-title-2 {
+    font-size: 40pt;
+    -webkit-text-stroke: 2px #580000;
+  }
+}
+
+@media (max-height: 828px) and (min-width: 1000px) {
+  .main-title {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1877px) {
+  body {
+    background-color: #1f0d00;
+  }
+
+  .boss-card-left {
+    display: block;
+    margin: 65px auto 0 auto;
+    width: 50vw;
+  }
+
+  .boss-card-right {
+    display: block;
+    float: none;
+    margin: 65px auto 0 auto;
+    width: 50vw;
+  }
+
+  .card-image {
+    width: 50vw;
+  }
+}
+
+.footer-text {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25pt;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  height: 150px;
+  max-width: 2560px;
+  background-color: #292929;
+}
+
+@media (max-width: 646px) {
+  footer {
+    font-size: 20pt;
+  }
+}
+
+@media (max-width: 491px) {
+  footer {
+    font-size: 15pt;
+  }
+}
+
+a {
+  text-decoration: none;
+}
